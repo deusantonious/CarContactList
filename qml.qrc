@@ -3,13 +3,15 @@
         <file>main.qml</file>
         <file>qtquickcontrols2.conf</file>
         <file>qml/images/contact.svg</file>
-        <file>qml/images/decline.svg</file>
         <file>qml/images/grid.svg</file>
         <file>qml/images/list.svg</file>
-        <file>qml/images/menu.svg</file>
-        <file>qml/images/search.svg</file>
         <file>qml/ViewsModule/qmldir</file>
         <file>qml/ViewsModule/List.qml</file>
         <file>qml/ViewsModule/ListDelegate.qml</file>
+        <file>qml/ViewsModule/Grid.qml</file>
+        <file>qml/ViewsModule/GridDelegate.qml</file>
+        <file>qml/ResourceProvider/qmldir</file>
+        <file>qml/ResourceProvider/Resources.qml</file>
+        <file>qml/ViewsModule/ContactImage.qml</file>
     </qresource>
 </RCC>

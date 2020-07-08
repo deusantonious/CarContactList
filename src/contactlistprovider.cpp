@@ -2,11 +2,17 @@
 
 ContactListProvider::ContactListProvider()
 {
+    m_contacts.push_back(Contact("Linus","Torvalds"));
     m_contacts.push_back(Contact("Bill","Gates"));
     m_contacts.push_back(Contact("Steve","Jobs"));
     m_contacts.push_back(Contact("Mark","Zukerberg"));
     m_contacts.push_back(Contact("Sergey","Brin"));
     m_contacts.push_back(Contact("Albert","Einstein"));
+    m_contacts.push_back(Contact("Marie","Curie"));
+    m_contacts.push_back(Contact("Isaac","Newton"));
+    m_contacts.push_back(Contact("Charles","Darwin"));
+    m_contacts.push_back(Contact("Nikola","Tesla"));
+    m_contacts.push_back(Contact("Galileo","Galilei"));
 }
 
 void ContactListProvider::registerMe(const std::string &moduleName)

@@ -1,3 +1,6 @@
 module ViewsModule
 List 1.0 List.qml
 ListDelegate 1.0 ListDelegate.qml
+Grid 1.0 Grid.qml
+GridDelegate 1.0 GridDelegate.qml
+ContactImage 1.0 ContactImage.qml

@@ -9,6 +9,13 @@ Rectangle {
         id: _delegateArea
         anchors.fill: root
     }
+    ContactImage {
+        anchors.left: parent.left
+        anchors.leftMargin: 20
+        anchors.verticalCenter: root.verticalCenter
+        boundingRadius: root.height - 20
+        borderSize: 5
+    }
     Row {
         anchors.horizontalCenter:  root.horizontalCenter
         anchors.verticalCenter:  root.verticalCenter
