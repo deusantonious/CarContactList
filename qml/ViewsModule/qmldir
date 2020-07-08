@@ -1,0 +1,3 @@
+module ViewsModule
+List 1.0 List.qml
+ListDelegate 1.0 ListDelegate.qml
