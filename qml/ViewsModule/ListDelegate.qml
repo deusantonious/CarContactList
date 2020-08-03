@@ -12,8 +12,8 @@ Rectangle {
     ContactImage {
         anchors.left: parent.left
         anchors.leftMargin: 20
-        anchors.verticalCenter: root.verticalCenter
-        boundingRadius: root.height - 20
+        anchors.verticalCenter: parent.verticalCenter
+        boundingRadius: parent.height - 20
         borderSize: 5
     }
     Row {

@@ -5,8 +5,6 @@ import QtGraphicalEffects 1.0
 Rectangle {
 
     id: root
-    anchors.horizontalCenter: root.horizontalCenter
-    anchors.verticalCenter: root.verticalCenter
     property real boundingRadius
     property real borderSize
     width: boundingRadius
