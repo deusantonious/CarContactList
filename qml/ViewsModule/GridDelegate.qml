@@ -1,5 +1,4 @@
 import QtQuick 2.0
-import QtQuick.Controls.Material 2.12
 import ResourceProvider 1.0
 Rectangle {
     id: root

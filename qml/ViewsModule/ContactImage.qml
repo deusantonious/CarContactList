@@ -1,6 +1,5 @@
 ﻿import QtQuick 2.0
 import ResourceProvider 1.0
-import QtGraphicalEffects 1.0
 
 Rectangle {
 
@@ -21,11 +20,5 @@ Rectangle {
         height: root.height * 0.55
         width: root.width * 0.55
         source: Resources.contacts.defaultContactIcon
-    }
-
-    ColorOverlay {
-        anchors.fill: _internalImage
-        source: _internalImage
-        color: "#FFFFFF"
     }
 }

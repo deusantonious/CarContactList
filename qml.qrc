@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>qtquickcontrols2.conf</file>
         <file>qml/images/contact.svg</file>
         <file>qml/images/grid.svg</file>
         <file>qml/images/list.svg</file>
